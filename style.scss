@@ -33,6 +33,13 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: rgb(244, 83, 83);
+  &:hover {
+    color: darken(red, 15%);
+  }
+  span{
+    color: rgb(64, 64, 187);
+  }
 }
 
 #app {
